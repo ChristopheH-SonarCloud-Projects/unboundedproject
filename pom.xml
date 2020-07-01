@@ -9,11 +9,9 @@
   <url>http://maven.apache.org</url>
 
     <properties>
-      <sonar.projectKey>gh-org-name_gh-maven</sonar.projectKey>
-      <sonar.organization>sonar-org-1</sonar.organization>
-      <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-      <sonar.login>9d123e28f33f1660d1fb8fa39f3c5445e657a1f1</sonar.login>
-    </properties>
+  <sonar.projectKey>ChrisHvdSS_gl-maven</sonar.projectKey>
+  <sonar.organization>gl-org</sonar.organization>
+</properties>
 
   <dependencies>
     <dependency>
