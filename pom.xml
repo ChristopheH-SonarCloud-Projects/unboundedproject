@@ -8,11 +8,6 @@
   <name>mavenProjectExample</name>
   <url>http://maven.apache.org</url>
 
-    <properties>
-  <sonar.projectKey>ChrisHvdSS_gl-maven</sonar.projectKey>
-  <sonar.organization>gl-org</sonar.organization>
-</properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
