@@ -65,4 +65,12 @@ public class AppTest
 
         assertTrue( red );
     }
+    public void testDisplayTruc(){
+         int[] tab = new int[10];
+        for(int i = 0; i <= 10; i++){// this should provoque NPE
+            System.out.println( tab[i] );
+        }
+        assertTrue(true);
+        assertTrue(true);
+    }
 }
