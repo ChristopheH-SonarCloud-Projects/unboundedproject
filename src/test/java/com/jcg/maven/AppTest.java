@@ -35,4 +35,13 @@ public class AppTest
     {
         assertTrue( true );
     }
+    /**
+     * Less Rigourous Test
+     */
+    public void shouldBeRed()
+    {
+        string red = "";
+
+        assertTrue( red );
+    }
 }
