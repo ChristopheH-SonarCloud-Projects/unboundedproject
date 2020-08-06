@@ -7,6 +7,9 @@ sonarqube-check:
   script:
     - mvn verify sonar:sonar
   allow_failure: true
+  cache:
+    paths:
+      - .sonar/cache
   only:
     - merge_requests
     - master
