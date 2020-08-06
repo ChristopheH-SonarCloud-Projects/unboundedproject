@@ -35,4 +35,23 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+  
+    /**
+     * Less Rigourous Test
+     */
+    public void shouldBeRed()
+    {
+        String red = "";
+
+        assertTrue( red == "" );
+    }
+    public void testDisplayTruc(){
+         int[] tab = new int[10];
+        for(int i = 0; i < 10; i++){
+            System.out.println( tab[i] );
+        }
+        assertTrue(true);
+        assertTrue(true);
+    }
 }
