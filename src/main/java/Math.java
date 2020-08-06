@@ -1,7 +1,7 @@
 public class Math {
 
     public static int add(int first, int second) {
-        return firstNumber + secondNumber;
+        return first + second;
     }
 
     public static int multiply(int multiplicand, int multiplier) {
