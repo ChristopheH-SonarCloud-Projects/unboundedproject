@@ -42,7 +42,7 @@ public class AppTest
      */
     public void shouldBeRed()
     {
-        string red = "";
+        String red = "";
 
         assertTrue( red );
     }
