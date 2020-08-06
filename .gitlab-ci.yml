@@ -1,21 +1,14 @@
 variables:
+  SONAR_USER_HOME: "${CI_PROJECT_DIR}/.sonar"  # Defines the location of the analysis task cache
   GIT_DEPTH: "0"  # Tells git to fetch all the branches of the project, required by the analysis task
-sonarcloud-check:
-  image: maven:3.6.3-jdk-11
-  cache:
-    paths:
-      - .sonar/cache
+  SONAR_TOKEN: "cc96781c95799db386c7cfd8df3fdbdd3ddde832"
+  SONAR_HOST_URL: "https://chvd.eu.ngrok.io"
+sonarqube-check:
+  image: maven:latest
   script:
     - mvn verify sonar:sonar
+  allow_failure: true
   only:
     - merge_requests
     - master
     - develop
-publish-artifact:
-  image: maven:3.6.3-jdk-11
-  cache:
-    paths:
-      - .sonar/cache
-  script:
-    - mvn verify sonar:sonar
-  
