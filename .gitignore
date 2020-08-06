@@ -21,4 +21,4 @@ Icon?
 
 # ---- Sonar
 .sonar/
-
+**/.scannerwork/**/*
