@@ -48,7 +48,7 @@ public class AppTest
     }
     public void testDisplayTruc(){
          int[] tab = new int[10];
-        for(int i = 0; i <= 10; i++){// this should provoque NPE
+        for(int i = 0; i < 10; i++){
             System.out.println( tab[i] );
         }
         assertTrue(true);
