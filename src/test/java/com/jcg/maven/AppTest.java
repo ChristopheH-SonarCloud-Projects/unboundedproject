@@ -44,7 +44,7 @@ public class AppTest
     {
         String red = "";
 
-        assertTrue( red );
+        assertTrue( red == "" );
     }
     public void testDisplayTruc(){
          int[] tab = new int[10];
