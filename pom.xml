@@ -19,7 +19,6 @@
 <properties>
        <maven.compiler.source>1.8</maven.compiler.source>
        <maven.compiler.target>1.8</maven.compiler.target>
-       <sonar.projectKey>ChrisHvdSS_gl-maven</sonar.projectKey>
-  <sonar.organization>gl-org</sonar.organization>
+       <sonar.projectKey>ChrisHvdSS_gl-maven_AXRPIHqrSh4Gf-l_3Qfx</sonar.projectKey>
 </properties>
 </project>
