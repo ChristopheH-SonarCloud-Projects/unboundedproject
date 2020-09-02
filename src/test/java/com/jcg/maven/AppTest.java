@@ -60,6 +60,5 @@ public class AppTest
             System.out.println( tab[i] );
         }
         assertTrue(true);
-        assertTrue(true);
     }
 }
