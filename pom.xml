@@ -19,5 +19,7 @@
 <properties>
        <maven.compiler.source>1.8</maven.compiler.source>
        <maven.compiler.target>1.8</maven.compiler.target>
+       
+  <sonar.projectKey>ChrisHvdSS_gl-maven_AXROGRGdSh4Gf-l_3Qcm</sonar.projectKey>
 </properties>
 </project>
