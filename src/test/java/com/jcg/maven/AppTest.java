@@ -54,4 +54,12 @@ public class AppTest
         assertTrue(true);
         assertTrue(true);
     }
+    public void testDisplayAnotherTruc(){
+         int[] tab = new int[10];
+        for(int i = 0; i < 10; i++){
+            System.out.println( tab[i] );
+        }
+        assertTrue(true);
+        assertTrue(true);
+    }
 }
