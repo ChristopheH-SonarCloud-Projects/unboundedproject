@@ -52,7 +52,6 @@ public class AppTest
             System.out.println( tab[i] );
         }
         assertTrue(true);
-        assertTrue(true);
     }
     public void testDisplayAnotherTruc(){
          int[] tab = new int[10];
