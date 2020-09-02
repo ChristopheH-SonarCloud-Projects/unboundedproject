@@ -1,6 +1,3 @@
-variables:
-  GIT_DEPTH: "0"  # Tells git to fetch all the branches of the project, required by the analysis task
-
 sonarqube-check:
   image: maven:3.6.3-jdk-11
   variables:
