@@ -11,7 +11,6 @@ public class Math {
     public static double divide(int dividend, int divisor) {
         if (divisor == 0)
             throw new IllegalArgumentException("Cannot divide by zero (0).");
-
         return dividend / divisor;
     }
 }
