@@ -5,7 +5,7 @@
   <artifactId>MyArtifactIdGitlabJava</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Gitlab Java 02092020</name>
+  <name>Gitlab Java</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
