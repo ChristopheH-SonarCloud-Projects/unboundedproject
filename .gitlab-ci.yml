@@ -8,7 +8,4 @@ sonarcloud-check:
       -Dsonar.projectKey=ChrisHvdSS_gl-maven_AYQ38PteoElDhnvSgpsl \
       -Dsonar.host.url=https://chvd.eu.ngrok.io \
       -Dsonar.login=sqp_c211524f9dc9855d6a7387ac05ca1a263a5b8cf2
-  only:
-    - merge_requests
-    - master
-    - develop
+
